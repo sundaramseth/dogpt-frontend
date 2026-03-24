@@ -5,7 +5,7 @@ import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github.css";
 import { supabase } from "./supabase";
 import Nav from "./components/Nav";
-import Sidebar from "./components/sidebar";
+import Sidebar from "./components/Sidebar";
 import { IoMenuOutline } from "react-icons/io5";
 function App() {
   const [conversations, setConversations] = useState([]);
